@@ -6,6 +6,8 @@
 
 html {scroll-behavior: smooth;}
 
+/*************************************** HERO SECTION *************************************************/
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -24,15 +26,6 @@ nav{
 nav img {
     width: 50%;
     
-}
-header video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-top: 50%;
 }
 .nav-links{
     flex: 1;
@@ -106,6 +99,93 @@ nav .cross{
 nav .menu {
     display: none;
 }
+
+/************************************** ABOUT SECTION **********************************************/
+
+#about {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+    
+}
+#about h1{
+    padding-left: 3%;
+}
+#about p {
+    width: 35%;
+    font-size: 1.2vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(235, 80, 137);
+    margin-top: 3%;
+    padding: 3% 3%;
+    
+    border: 2px solid black;
+    border-radius: 6%;
+}
+#about video{
+    width: 50%;
+    border: 2px solid black;
+    float: right;
+    border-radius: 6%;
+    margin-top: 3%;
+}
+
+/************************************ FOOTER SECTION ***********************************************/
+
+footer {
+    margin-top: 5%;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    
+}
+footer .contact {
+    float: left;
+}
+footer a{
+    color: rgb(235, 80, 137);
+}
+
+/**************************************MEDIA QUERYS*************************************************/
+
+@media(max-width: 600px){
+    
+    .text-box{
+    font-size: 10px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+
+    }
+    nav .cross{
+        display: block;
+        color: white;
+        cursor: pointer;
+        margin: 10px;
+        
+    }
+    nav .cross img{
+        width: 15px;
+    }
+    nav .menu {
+        display: block;
+        cursor: pointer;
+    }
+    nav .menu img{
+        width: 30px;
+    }
+}
 @media(max-width: 600px){
     
     .text-box{
@@ -145,47 +225,6 @@ nav .menu {
     }
 }
 
-#about {
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 5%;
-    
-}
-#about h1{
-    padding-left: 3%;
-}
-#about p {
-    width: 35%;
-    font-size: 1.2vw;
-    background-color: rgb(0, 0, 0);
-    color: rgb(235, 80, 137);
-    margin-top: 3%;
-    padding: 3% 3%;
-    
-    border: 2px solid black;
-    border-radius: 6%;
-}
-#about video{
-    width: 50%;
-    border: 2px solid black;
-    float: right;
-    border-radius: 6%;
-    margin-top: 3%;
-}
-
-footer {
-    margin-top: 5%;
-    background-color: #000000;
-    color: #fff;
-    padding: 20px;
-    
-}
-footer .contact {
-    float: left;
-}
-footer a{
-    color: rgb(235, 80, 137);
-}
 @media(700px<width<900px){
     #about {
         margin-top: 2%;
@@ -215,8 +254,6 @@ footer a{
     footer{
         margin-top: 40%;
     }
-
-    
 }
 @media(max-width: 700px){
     #about {
@@ -245,9 +282,7 @@ footer a{
     }
     footer{
         margin-top: 100%;
-    }
-
-    
+    }       
 }
 @media(max-width: 600px){
     #about {
@@ -277,9 +312,7 @@ footer a{
     }
     footer{
         margin-top: 100%;
-    }
-
-    
+    }    
 }
 @media(max-width: 520px){
     #about {
@@ -308,7 +341,5 @@ footer a{
     }
     footer{
         margin-top: 100%;
-    }
-
-    
+    }    
 }
