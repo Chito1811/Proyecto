@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto personal</title>
     <link rel="stylesheet" href="Style.css">
+    <script src="./js/javasript.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,22 +15,36 @@
 <body>
     
 <section class="header">
+
     
     <nav>
-        <a href="proyecto.html"><img src="img/volrace.png"></a>
+        <a href="proyecto.html"><img src="img/logo.png"></a>
         <div class="nav-links" id="navLinks">
             <i class="cross" onclick="hideMenu()"><img src="./img/cross.png" alt="cross"></i>
             <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
-                <li><a href="">TEAMS</a></li>
+                <li><a href="#drift">DRIFTING</a></li>
                 <li><a href="">MERCH</a></li>
                 <li><a href="#footer">CONTACT</a></li>
             </ul>
         </div>
-        <i class="menu" onclick="showMenu()"><img src="./img/menu bars.png" alt="menu"></i>
-    </nav>
+        <i class="menu" onclick="showMenu()"><img src="./img/menu bars.png" alt="menu"></i>    
     
+    
+    <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#drift">DRIFTING</a>
+            <a href="#">MERCH</a>
+            <a href="#footer">CONTACT</a>
+        </div>
+        
+        <!-- Use any element to open the sidenav -->
+        
+    </nav>
+    <span id="btn" onclick="openNav()">&#9776; </span>
 <div class="text-box">
     <h1><b>VOLRACE</b></h1>
     <p>A professional work team, lover of the motor world, without limits, 
@@ -41,9 +56,28 @@
 
 </section>
 <section id="about">
+    
+        <!--grid a 2 columnas-->
+        <div class="grid-2">
+            <div class="col-2"> 
+                <p><h1>ABOUT</h1>VOLRACE was born in 2017 to respond to the growing demand for spaces where motor enthusiasts could 
+                    exhibit, talk, participate and enjoy professional events, with engine noise as the protagonist. <br><br>    
+                    The inspiration for this type of event has been to bring together the best most extreme National 
+                    and International Drift along with super exclusive vehicles to enter the track and a great exhibition 
+                    opening the range to all types of motor vehicles.
+                    <span id="dots">...</span><span id="more"><br><br>VOLRACE is passion for motors in all its disciplines. 
+                        Exhibition, sport, meeting and promotion as entertainment in the Classic, Racing, Drift, Supercars, 
+                        Grip and Drag Race Acceleration categories.</span></p>
+                    <button onclick="myFunction()" id="myBtn">Read more</button></p>
+            </div>
+            <div class="col-2">              
+                <img src="./img/aboutimg.jpg" alt="kk">
+            </div>  
+</section>
+<!--<section id="about">
     <h1>ABOUT</h1>
     <video autoplay muted loop id="myVideo">
-        <source src="videos/pexels-kelly-lacy-9737977 (1080p).mp4" type="video/mp4">
+        <source id="video" src="videos/pexels-kelly-lacy-9737977 (1080p).mp4" type="video/mp4">
     </video>
     <p>VOLRACE was born in 2017 to respond to the growing demand for spaces where motor enthusiasts could 
         exhibit, talk, participate and enjoy professional events, with engine noise as the protagonist.
@@ -55,7 +89,31 @@
     
         
 
+</section>-->
+<section id="drift">
+    <!--grid a 2 columnas-->
+    <div class="grid-2">
+        <div class="col-2"> 
+            <video autoplay muted loop id="myVideo">
+                <source src="videos/production_id_4569076 (720p).mp4" type="video/mp4">
+            </video>
+            <img src="./img/volrace.png" alt="banner">
+        </div>
+        <div class="col-2">              
+            
+            <p><h1>DRIFTING</h1>Complete routes to Drift with the most exclusive cars from all over Europe
+                and prepared in the world with top-level pilots such as Alex Claudin, participant of the series
+                Netflix of car tests. <br><br>    
+                Our Drift tests are very radical and exclusive. Not everyone can enter them, creating a great level
+                and a spectacle like no other, seeing cars drifting at
+                <span id="dots2">...</span><span id="more2"> more than 250 km/h 
+                    and with powers of more than 1,500 hp.<br><br>In these World Cup circuits only specialists manage to do this type 
+                    of test successfully and thanks to our professionalism and experience we are able to create unique events in 
+                    each of them.</span></p>
+                <button onclick="myFunction2()" id="myBtn2">Read more</button></p>
+        </div>  
 </section>
+
 
 <section id="footer">
     <footer>
@@ -75,17 +133,9 @@
         
     </footer>
 </section>
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right="0";
-    }
-    function hideMenu(){
-        navLinks.style.right="-200px";
-        
-    }
-    
-</script>
+
+
+
     
 </body>
 </html>
