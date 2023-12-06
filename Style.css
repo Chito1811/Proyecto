@@ -120,15 +120,18 @@ nav img {
 }
 .text-box h1{
     font-size: 62px;
+    margin-left: 7.5%;
     
 }
 .text-box p{
+    margin-left: 8% !important;
     margin: 10px 0px 40px;
-    font-size: 14px;
+    font-size: 1.15em;
     color: white;
     
 }
 .hero-btn{
+    margin-left: 8%;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -300,11 +303,127 @@ transition: 1s;
 }
 #more2 {display: none;}
 
+/************************************ MERCH SECTION ***********************************************/
+
+#merch {
+    background-color: #000000;
+    margin-bottom: 0.5%;
+}
+#merch h1{
+    font-size: 2.5em;
+    color:  rgb(235, 80, 137);
+    padding-left: 3.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#merch p{
+    color: white;
+    padding-left: 3.5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+
 
 
 /************************************ GALLERY SECTION ***********************************************/
 
+* {
+    box-sizing: border-box;
+}
+#gallery {
+    background-color: #000000;
+}
+#gallery h1{
+    font-size: 2.5em;
+    color:  rgb(235, 80, 137);
+    padding-left: 3.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
+  /* Position the image container (needed to position the left and right arrows) */
+    .container2 {
+    position: relative;
+    }
+
+  /* Hide the images by default */
+    .mySlides {
+    display: none;
+}
+
+  /* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+  /* Next & previous buttons */
+    .prev,
+    .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+  /* Position the "next button" to the right */
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+  /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+  /* Number text (1/3 etc) */
+.numbertext {
+    background-color: #000000;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+  /* Container for image text */
+    .caption-container {
+    text-align: center;
+    background-color: #000000;
+    padding: 2px 16px;
+    color: white;
+}
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  /* Six columns side by side */
+    .column {
+    float: left;
+    width: 16.66%;
+}
+
+  /* Add a transparency effect for thumnbail images */
+    .demo {
+    opacity: 0.6;
+}
+
+    .active,
+    .demo:hover {
+    opacity: 1;
+}
 
 /************************************ FOOTER SECTION ***********************************************/
 
@@ -367,7 +486,7 @@ footer a{
 
 /************************************** MEDIA QUERYS SIDE BAR *************************************************/
 
-@media(max-width: 700px){
+@media(max-width: 810px){
     #btn {
         z-index: 80;
         position: fixed;
@@ -425,12 +544,11 @@ footer a{
     }
 }
 
-/**************************************MEDIA QUERYS*************************************************/
+/************************************** MEDIA QUERYS *************************************************/
 
-@media(max-width: 700px){
-    
+@media(max-width: 810px){
     .text-box{
-    font-size: 10px;
+    font-size: 1em;
     }
     .nav-links ul li{
         display: block;
@@ -440,9 +558,6 @@ footer a{
     }
 }
 
-@media(700px<width<900px){
-    
-}
 @media(max-width: 700px){
     .col-2 p {
         width: 100%;
