@@ -1,3 +1,5 @@
+/************************  SIDE-BAR  JAVASCRIPT********************* */
+
 /* Set the width of the side navigation to 250px */
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -8,6 +10,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 /********************  FUNCTION READ MORE 1 ************************ */
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -22,7 +25,9 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+
 /********************  FUNCTION READ MORE 2 ************************ */
+
 function myFunction2() {
   var dots2 = document.getElementById("dots2");
   var moreText2 = document.getElementById("more2");
@@ -38,6 +43,10 @@ function myFunction2() {
     moreText2.style.display = "inline";
   }
 }
+
+/********************  MERCH SECTION  **************************** */
+
+
 
 /********************  gallery slideshow  ************************ */
 let slideIndex = 1;

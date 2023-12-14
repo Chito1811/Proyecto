@@ -52,7 +52,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(235, 80, 137);
+    background: rgb(255,20,147);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -95,7 +95,7 @@ nav img {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: rgb(235, 80, 137);
+    color: rgb(255,20,147);
 }
 
 /* Position and style the close button (top right corner) */
@@ -146,7 +146,7 @@ nav img {
 }
 .hero-btn:hover{
     border: 1px white;
-    background: rgb(235, 80, 137);
+    background: rgb(255,20,147);
     transition: 1s;
 }
 nav .cross{
@@ -169,8 +169,8 @@ nav .menu {
 }
 
 #about h1{
-    color: rgb(235, 80, 137);
-    font-size: 2.5em;
+    color: rgb(255,20,147);
+    font-size: 2.8em;
     padding-bottom: 5%;
     }
 .grid-2{
@@ -220,7 +220,7 @@ cursor: pointer;
 }
 #about button:hover{
 border: 1px white;
-background: rgb(235, 80, 137);
+background:rgb(255,20,147);
 transition: 1s;
 }
 #more {display: none;}
@@ -237,8 +237,8 @@ transition: 1s;
 }
 
 #drift h1{
-    color: rgb(235, 80, 137);
-    font-size: 2.5em;
+    color: rgb(255,20,147);
+    font-size: 2.8em;
     padding-bottom: 5%;
     }
 #drift .grid-2{
@@ -298,52 +298,82 @@ cursor: pointer;
 }
 #drift button:hover{
 border: 1px white;
-background: rgb(235, 80, 137);
+background: rgb(255,20,147);
 transition: 1s;
 }
 #more2 {display: none;}
 
-/************************************ MERCH SECTION ***********************************************/
 
-#merch {
-    background-color: #000000;
-    margin-bottom: 0.5%;
-}
-#merch h1{
-    font-size: 2.5em;
-    color:  rgb(235, 80, 137);
+
+/************************************ MERCH SECTION *************************************************/
+
+#Eventos {background-color: #000000;
+padding-bottom: 5%;}
+
+#Eventos h1 {
+    font-size: 2.8em;
+    color: rgb(255,20,147);
     padding-left: 3.5%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
-#merch p{
-    color: white;
-    padding-left: 3.5%;
-    padding-bottom: 5%;
-    font-size: 1em;
+.grid-4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
 }
 
+.col-4 {padding: 5%;
+    border-radius: 7px;
+    background-color: black;}
 
+#Eventos img {width: 100%;}
+
+#Eventos button{
+    margin-top: 5.5%;
+    margin-left: 36%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    
+    }
+    #Eventos button:hover{
+    border: 1px white;
+    background: rgb(255,20,147);
+    transition: 1s;
+    }
 
 /************************************ GALLERY SECTION ***********************************************/
 
 * {
     box-sizing: border-box;
 }
-#gallery {
+#gallery {margin-top: .5%;
     background-color: #000000;
+    padding-bottom: 5%;
+    margin-bottom: .5%;
 }
 #gallery h1{
-    font-size: 2.5em;
-    color:  rgb(235, 80, 137);
-    padding-left: 3.5%;
+    font-size: 2.8em;
+    color:  rgb(255,20,147);
+    padding-left: 3.8%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
   /* Position the image container (needed to position the left and right arrows) */
     .container2 {
-    position: relative;
+        border: 2px solid white;
+        margin: auto;
+        width: 60%;
+        position: relative;
     }
 
   /* Hide the images by default */
@@ -427,7 +457,7 @@ transition: 1s;
 
 /************************************ FOOTER SECTION ***********************************************/
 
-footer {
+/*footer {
     margin-top: 0.5%;
     background-color: #000000;
     color: #fff;
@@ -439,7 +469,72 @@ footer .contact {
 }
 footer a{
     color: rgb(235, 80, 137);
+}*/
+
+
+footer {
+    position: relative;
+    width: 100%;
+    background:rgba(255, 20, 145, 0.8);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+footer .menu{
+    padding-bottom: 3%;
+}
+footer .social_icon{
+    padding-top: 3%;
+}
+footer .social_icon, footer .menu {
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 10px 0;
+}
+
+footer .social_icon li, footer .menu li {
+list-style: none;
+}
+footer .social_icon li a {
+    font-size: 2em;
+    color: #ccc;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover {
+    transform: translateY(-15px);
+    color: black;
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: #ccc;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover {
+    opacity: 1;
+    color: #fff;
+}
+footer p {
+    color : #eee;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    padding-bottom: 5%;
+}
+
 
 /************************************** MEDIA QUERYS GRID-2 *************************************************/
 
@@ -547,6 +642,7 @@ footer a{
 /************************************** MEDIA QUERYS *************************************************/
 
 @media(max-width: 810px){
+    .container2{width: 100%;}/*width al máximo de la gallery*/
     .text-box{
     font-size: 1em;
     }
@@ -555,6 +651,10 @@ footer a{
     }
     .nav-links{
         visibility: hidden;
+    }
+    .grid-4{
+        display: grid;
+        grid-template-columns: auto;
     }
 }
 

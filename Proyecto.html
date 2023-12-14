@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto personal</title>
     <link rel="stylesheet" href="Style.css">
-    <script src="./js/javasript.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +24,7 @@
                 <li><a href="">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#drift">DRIFTING</a></li>
-                <li><a href="#merch">MERCH</a></li>
+                <li><a href="#Eventos">EVENTS</a></li>
                 <li><a href="#gallery">GALLERY</a></li>
                 <li><a href="#footer">CONTACT</a></li>
             </ul>
@@ -38,7 +37,7 @@
             <a href="#">HOME</a>
             <a href="#about">ABOUT</a>
             <a href="#drift">DRIFTING</a>
-            <a href="#merch">MERCH</a>
+            <a href="#Eventos">EVENTS</a>
             <a href="#gallery">GALLERY</a>
             <a href="#footer">CONTACT</a>
         </div>
@@ -53,7 +52,7 @@
         that will make you want to repeat every second with us. <br>
         We put ourselves in your skin, under your overalls, we share your nerves, 
         we know what you want and that is why we will not leave anything to chance.</p>
-        <a href=""class="hero-btn">Learn More</a>
+        <a href="#about"class="hero-btn">Learn More</a>
 </div>
 
 </section>
@@ -103,9 +102,22 @@
         </div>  
 </section>
 
-<section id="merch">
-    <h1>MERCHANDISING</h1>
-    <p>In this section I want to make something like a gallery which shows diferent types of merchandising from the organization :D</p>
+<section id="Eventos">
+    <h1>EVENTS</h1>
+    <div class="grid-4">
+        <div class="col-4"> 
+            <img src="./img/expo.jpg" alt="">
+                <a href="https://volrace.com/inscripciones-expo/" target="_blank"><button>Sing up</button></a>
+        </div>
+        <div class="col-4">              
+            <img src="./img/drift.jpg" alt="">
+            <a href="https://volrace.com/inscripciones-drift/ target="_blank"><button>Sing up</button></a>
+        </div>
+        <div class="col-4">
+            <img src="./img/grip.jpg" alt="">
+            <a href="https://volrace.com/inscripcion-tandas-grip-volrace/" target="_blank"><button>Sing up</button></a>
+        </div>
+    </div>
 </section>
 
 <section id="gallery">
@@ -178,7 +190,7 @@
 
 </section>
 <section id="footer">
-    <footer>
+    <!--<footer>
         <div class="Contact">
             <h1><b>Contact</b></h1>
             <p>Address: C/ Melendro 5, bajo B. 47014 - Valladolid</p>
@@ -193,11 +205,29 @@
             </div>
         
         
+    </footer>-->
+    <footer>
+        <ul class="social_icon">
+            <li><a href="https://www.facebook.com/volrace.oficial" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://twitter.com/VolRace" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="https://www.youtube.com/c/Volrace" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/volrace.oficial/?hl=es" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#drift">Drifting</a></li>
+            <li><a href="#Eventos">Events</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+        </ul>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </section>
 
 
 
-    
+<script src="./js/javasript.js"></script>
 </body>
 </html>
