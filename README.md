@@ -14,7 +14,8 @@
 <h1>  Structure </h1>
 
 1. HERO SECTION 🦸
-<img src="![Captura de pantalla 2023-12-16 132756](https://github.com/Chito1811/Proyecto/assets/150530665/c3156195-cf73-490a-82a5-8ea57a5835b6)
+<img src="![Captura de pantalla 2023-12-16 132756](https://github.com/Chito1811/Proyecto/assets/150530665/537e12be-973e-48a9-9250-34dd3283db2d)
+
 " alt="Descripción de la imagen" width="800" height="500">
 3. ABOUT 💭
 4. DRIFTING 🏎️
