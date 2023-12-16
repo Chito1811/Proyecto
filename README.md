@@ -1,4 +1,4 @@
-<h1>  V  O  L  R  A  C  E  </h1>
+<h1> <b>V  O  L  R  A  C  E</b>  </h1>
 
 <h1>  Motivation </h1>
 
