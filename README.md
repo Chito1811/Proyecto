@@ -50,3 +50,5 @@
         with their policies. <br> <br>                    
         For more information about Volrace and to support their initiatives, please visit their official website at 
         <a id="kk" href="https://volrace.com/" target="_blank">volrace.com</a></p>
+  ![image](https://github.com/Chito1811/Proyecto/assets/150530665/94a30b36-59a9-471b-8de3-ed1972c2b8fd)
+
