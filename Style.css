@@ -468,6 +468,10 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+footer img {
+    width: 17%;
+    padding: 2%;
+}
 footer h1{
     font-size: 2.8em;
     padding: auto;
