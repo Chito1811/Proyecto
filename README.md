@@ -46,6 +46,8 @@
 <h1>Code snippets</h1>
 - I used W3Schools side bar -> <a href="https://www.w3schools.com/howto/howto_js_sidenav.asp">Side Bar</a> <br>
 - I used W3Schools parallax animation -> <a href="https://www.w3schools.com/howto/howto_css_parallax.asp">Parallax</a>
+- I used W3Schools read more/less button -> <a href="https://www.w3schools.com/howto/howto_js_read_more.asp">Read More/Less</a>
+- I used smooth-scroll
 
 <h1> Style </h1>
 
