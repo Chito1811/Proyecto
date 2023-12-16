@@ -2,7 +2,7 @@
 
 <h1>  Motivation </h1>
 
-<p>This website was inspired by the real organization of Volrace: <a href="https://volrace.com/">volrace.come</a></p>
+<p>This website was inspired by the real organization of Volrace: <a href="https://volrace.com/">volrace.com</a></p>
 
 <h1>  What is volrace </h1>
 
@@ -34,7 +34,9 @@
 6. CONTACT 📬
 ![image](https://github.com/Chito1811/Proyecto/assets/150530665/c7db5073-33a9-4eeb-907b-c1bc860d821a)
 
-<img src="https://volrace.com/wp-content/uploads/2021/12/volrace-gasolina-venas.jpg" alt="Descripción de la imagen" width="800" height="500">
+<h1>Code snippets</h1>
+- I used W3Schools side bar -> <a href="[https://volrace.com/](https://www.w3schools.com/howto/howto_js_sidenav.asp)">Side Bar</a>
+- I used W3Schools parallax animation -> <a href="[[https://volrace.com/](https://www.w3schools.com/howto/howto_js_sidenav.asp)](https://www.w3schools.com/howto/howto_css_parallax.asp)">Parallax</a>
 
  <h1><b>Diclaimer</b></h1>
     <p>The content presented on this page is intended solely for educational and study purposes. 
