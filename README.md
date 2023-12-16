@@ -1,17 +1,17 @@
 <h1>  V  O  L  R  A  C  E  </h1>
 
-<h1>  MOTIVATION </h1>
+<h1>  Motivation </h1>
 
 <p>This website was inspired by the real organization of Volrace: <a href="https://volrace.com/">volrace.come</a></p>
 
-<h1>  WHAT IS VOLRACE </h1>
+<h1>  What is volrace </h1>
 
 <p>Volrace is a professional work team, lover of the motor world, without limits, 
   that will make you want to repeat every second with us. <br>
   We put ourselves in your skin, under your overalls, we share your nerves, 
   we know what you want and that is why we will not leave anything to chance.</p>
 
-<h1>  STRUCTURE </h1>
+<h1>  Structure </h1>
 
 1. HERO SECTION 🦸
 2. ABOUT 💭
