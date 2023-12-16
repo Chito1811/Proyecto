@@ -1,5 +1,14 @@
 <h1> <b>V  O  L  R  A  C  E</b>  </h1>
 
+<h2> Creator </h2>
+- Ignacio Lázaro Zambrano
+
+<h2> License </h2>
+- cc-by
+
+<h2> Date </h2>
+- December 2023
+
 <h1>  Motivation </h1>
 
 <p>This website was inspired by the real organization of Volrace: <a href="https://volrace.com/">volrace.com</a></p>
