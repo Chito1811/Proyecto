@@ -1,4 +1,4 @@
-![Captura de pantalla 2023-12-16 132756](https://github.com/Chito1811/Proyecto/assets/150530665/1919e37e-bfa6-47ec-a01f-a08e88d5e294)<h1> <b>V  O  L  R  A  C  E</b>  </h1>
+<h1> <b>V  O  L  R  A  C  E</b>  </h1>
 
 <h1>  Motivation </h1>
 
