@@ -7,9 +7,9 @@
 <h1>  What is volrace </h1>
 
 <p>Volrace is a professional work team, lover of the motor world, without limits, 
-  that will make you want to repeat every second with us. <br>
-  We put ourselves in your skin, under your overalls, we share your nerves, 
-  we know what you want and that is why we will not leave anything to chance.</p>
+  that will make you want to repeat every second with them. <br>
+  They put theirselves in your skin, under your overalls, they share your nerves, 
+  they know what you want and that is why they will not leave anything to chance.</p>
 
 <h1>  Structure </h1>
 
