@@ -38,6 +38,11 @@
 - I used W3Schools side bar -> <a href="https://www.w3schools.com/howto/howto_js_sidenav.asp">Side Bar</a> <br>
 - I used W3Schools parallax animation -> <a href="https://www.w3schools.com/howto/howto_css_parallax.asp">Parallax</a>
 
+<h1> Style </h1>
+
+- Color pallete: 60% black 20% white 10% pink.
+- Font: Kanit, sans-serif.
+
  <h1><b>Diclaimer</b></h1>
     <p>The content presented on this page is intended solely for educational and study purposes. 
         It is provided for the purpose of research, learning, and personal development. 
@@ -50,5 +55,9 @@
         with their policies. <br> <br>                    
         For more information about Volrace and to support their initiatives, please visit their official website at 
         <a id="kk" href="https://volrace.com/" target="_blank">volrace.com</a></p>
-  ![image](https://github.com/Chito1811/Proyecto/assets/150530665/94a30b36-59a9-471b-8de3-ed1972c2b8fd)
+
+  
+
+ 
+
 
