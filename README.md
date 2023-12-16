@@ -35,8 +35,8 @@
 ![image](https://github.com/Chito1811/Proyecto/assets/150530665/c7db5073-33a9-4eeb-907b-c1bc860d821a)
 
 <h1>Code snippets</h1>
-- I used W3Schools side bar -> <a href="[https://volrace.com/](https://www.w3schools.com/howto/howto_js_sidenav.asp)">Side Bar</a>
-- I used W3Schools parallax animation -> <a href="[[https://volrace.com/](https://www.w3schools.com/howto/howto_js_sidenav.asp)](https://www.w3schools.com/howto/howto_css_parallax.asp)">Parallax</a>
+- I used W3Schools side bar -> <a href="https://www.w3schools.com/howto/howto_js_sidenav.asp">Side Bar</a> <br>
+- I used W3Schools parallax animation -> <a href="https://www.w3schools.com/howto/howto_css_parallax.asp">Parallax</a>
 
  <h1><b>Diclaimer</b></h1>
     <p>The content presented on this page is intended solely for educational and study purposes. 
