@@ -26,12 +26,11 @@
     <p>The content presented on this page is intended solely for educational and study purposes. 
         It is provided for the purpose of research, learning, and personal development. 
         The information, materials, and any intellectual property contained herein are not to be used for commercial purposes, 
-        distribution, or any form of profit. <br> <br>
-        Any unauthorized use of the content, including but not limited to reproduction, distribution, 
-        or commercial exploitation, is strictly prohibited. The owner(s) of this content reserve the right to take 
-        appropriate legal action against any individual or entity violating these terms. <br> <br>        
-        By accessing and using the content on this page, you agree to abide by these terms and conditions. 
-        If you do not agree with these terms, please refrain from accessing or using the content. <br> <br>        
-        For any inquiries regarding the use of the content for purposes other than study or educational activities, 
-        please contact me at: <b>ilazzam1811@g.educaand.es</b>
-        </p>
+        distribution, or any form of profit. <br> <br></p>
+<p><h1>Credits</h1>
+  We would like to extend our gratitude to Volrace for providing valuable information and images featured on this website.
+        Volrace, a reputable organization, that creates events for lovers of the motorsports. <br><br>            
+        The information and images sourced from Volrace have been used exclusively for educational and study purposes in accordance
+        with their policies. <br> <br>                    
+        For more information about Volrace and to support their initiatives, please visit their official website at 
+        <a id="kk" href="https://volrace.com/" target="_blank">volrace.com</a></p>
